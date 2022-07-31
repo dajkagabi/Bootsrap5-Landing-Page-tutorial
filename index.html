@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Bootstrap5 Tutorial</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-success">Build</span>ing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--me-auto ->ms-auto-->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolia">Portfolio</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    </form>
+            </div>
+        </div>
+    </nav>
+    <!--Slide-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!--1-->
+                <img src="./assets/img/home-1.jpg" class="d-block w-100" alt="home-1">
+                <div class="carousel-caption ">
+                    <h5>Your Dream House</h5>
+                    <p>Nulla nulla aliqua tempor sunt dolore anim irure exercitation in ipsum.</p>
+                    <p><a href="#" class="btn btn-success mt-3">Learn More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--2-->
+                <img src="./assets/img/home-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Choose</h5>
+                    <p>Labore quis id occaecat excepteur do dolor ullamco consectetur esse nulla.</p>
+                    <p><a href="#" class="btn btn-success mt-3">Learn More</a></p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--3-->
+                <img src="./assets/img/home-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5>Option</h5>
+                    <p>Do deserunt sunt ullamco culpa est aliquip et irure tempor eiusmod exercitation laboris.</p>
+                    <p><a href="#" class="btn btn-success mt-3">Learn More</a></p>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--About-->
+    <section id="about" class="about-section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="./assets/img/about.jpg" alt="About" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg 8 col-md12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>We Provide Best Quality<br /> Services Ever</h2>
+                        <p>Magna tempor voluptate est ex. Eu ex eu minim est nostrud dolore. Deserunt consectetur non
+                            pariatur laboris. Incididunt deserunt reprehenderit dolor et occaecat duis duis. Pariatur
+                            esse sit laboris dolor. Cupidatat id non do incididunt officia ipsum mollit est irure.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services-->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>
+                            adipisicing elit. Non, quo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title">Best Quality</h3>
+                            <p class="lead">Qui proident ad commodo aliquip reprehenderit. Esse dolor consequat enim ea
+                                laboris voluptate est cupidatat excepteur occaecat dolore ad Lorem. Quis sunt aliqua do
+                                sunt et tempor ex enim aliqua elit labore voluptate consectetur nisi. In esse
+                                adipisicing exercitation labore veniam adipisicing culpa quis non velit dolore. Aute
+                                elit reprehenderit labore exercitation eu mollit aliquip laborum est aute aliquip.</p>
+                            <button class="btn bg-success text-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-journal"></i>
+                            <h3 class="card-title">Sustainability</h3>
+                            <p class="lead">Ea proident consequat consectetur in ad aliqua esse reprehenderit non mollit
+                                nisi adipisicing velit. Dolore Lorem voluptate excepteur dolor velit cupidatat sint
+                                consectetur sunt. Quis occaecat do in do nisi tempor exercitation. Reprehenderit
+                                cupidatat nisi do anim consequat est et nulla. Consequat eiusmod irure nisi eu enim ex
+                                ad sint mollit culpa. Exercitation duis et et adipisicing voluptate dolore. Ea consequat
+                                consequat esse consectetur.</p><button class="btn bg-success text-dark">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-intersect"></i>
+                            <h3 class="card-title">Integrity</h3>
+                            <p class="lead">Sit mollit reprehenderit laborum aliquip cillum deserunt sint. Labore minim
+                                minim duis aute id ex sunt eiusmod magna esse. Labore cillum irure aute enim
+                                exercitation dolore adipisicing veniam ipsum. Nisi et nostrud ea nulla qui cillum duis
+                                velit veniam nostrud nisi aliqua. Ullamco reprehenderit eu elit aliqua excepteur irure.
+                                Exercitation dolore elit ad sint. Et nulla dolore commodo non sint adipisicing est
+                                voluptate officia eu ut labore reprehenderit.</p><button
+                                class="btn bg-success text-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio section-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our Projects</h2>
+                        <p>Tempor mollit consectetur excepteur in mollit incididunt minim nulla incididunt nulla Lorem.
+                            Excepteur consectetur mollit labore est exercitation veniam incididunt cillum ad aliquip
+                            laborum. Quis excepteur fugiat pariatur veniam. Enim excepteur id ut duis ea id. Anim
+                            exercitation officia adipisicing commodo officia laboris ipsum esse esse.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4"><img alt="" class="img-fluid" src="./assets/img/project-1.jpg">
+                            </div>
+                            <h3 class="card-title">Building Make</h3>
+                            <p class="lead">Sit fugiat ullamco laboris incididunt pariatur amet anim ex nisi mollit duis
+                                aliquip nostrud.</p><button class="btn bg-success text-dark">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4"><img alt="" class="img-fluid" src="./assets/img/project-2.jpg">
+                            </div>
+                            <h3 class="card-title">Building Make</h3>
+                            <p class="lead">In non sunt eiusmod do eu dolor nisi cupidatat commodo officia consectetur
+                                consectetur incididunt.</p><button class="btn bg-success text-dark">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4"><img alt="" class="img-fluid" src="./assets/img/project-3.jpg">
+                            </div>
+                            <h3 class="card-title">Building Make</h3>
+                            <p class="lead">Culpa do nisi tempor irure adipisicing esse ea ea officia ullamco sunt enim
+                                esse eu.</p><button class="btn bg-success text-dark">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team starts -->
+    <section class="team section-padding" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our Team</h2>
+                        <p>Laborum nostrud eu exercitation aliquip magna eu ullamco aliqua cupidatat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img alt="" class="img-fluid rounded-circle" src="./assets/img/team-1.jpg"">
+                            <h3 class="card-title py-2">Draven Chapman</h3>
+                            <p class="card-text">Consectetur enim elit exercitation culpa adipisicing cillum minim enim.</p>
+                            <p class="socials"><i class="bi bi-twitter text-dark mx-1"></i> <i
+                                    class="bi bi-facebook text-dark mx-1"></i> <i
+                                    class="bi bi-linkedin text-dark mx-1"></i> <i
+                                    class="bi bi-instagram text-dark mx-1"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img alt="" class="img-fluid rounded-circle" src="./assets/img/team-2.jpg">
+                            <h3 class="card-title py-2">Spencer Hampton</h3>
+                            <p class="card-text">Ipsum aute veniam eu amet occaecat excepteur aliquip nisi dolore laboris aliqua amet qui.</p>
+                            <p class="socials"><i class="bi bi-twitter text-dark mx-1"></i> <i
+                                    class="bi bi-facebook text-dark mx-1"></i> <i
+                                    class="bi bi-linkedin text-dark mx-1"></i> <i
+                                    class="bi bi-instagram text-dark mx-1"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img alt="" class="img-fluid rounded-circle" src="./assets/img/team-3.jpg">
+                            <h3 class="card-title py-2">Anna Lucas</h3>
+                            <p class="card-text">Proident labore dolore anim fugiat nisi voluptate ex velit deserunt minim amet.</p>
+                            <p class="socials"><i class="bi bi-twitter text-dark mx-1"></i> <i
+                                    class="bi bi-facebook text-dark mx-1"></i> <i
+                                    class="bi bi-linkedin text-dark mx-1"></i> <i
+                                    class="bi bi-instagram text-dark mx-1"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img alt="" class="img-fluid rounded-circle" src="./assets/img/team-4.jpg">
+                            <h3 class="card-title py-2">
+                                Julie  Sparks</h3>
+                            <p class="card-text">Magna labore occaecat nisi aute sit qui minim in mollit.</p>
+
+                            <p class="socials">
+                                <i class="bi bi-twitter text-dark mx-1"></i> <i
+                                    class="bi bi-facebook text-dark mx-1"></i>
+                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact-->
+    <section class="contact section-padding" id="contact">
+		<div class="container mt-5 mb-5">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Contact Us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur<br>
+						adipisicing elit. Non, quo.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row m-0">
+				<div class="col-md-12 p-0 pt-4 pb-4">
+                    <div class="mb-3">
+                        
+                        <label for="Full Name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullname"> <br/>
+
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+				</div>
+                <button class="btn btn-success">Submit</button>
+
+			</div>
+		</div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">All Right Reserved By @website Name</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
